@@ -25,9 +25,9 @@
 
         width: 100vw;
         height: 100vh;
-        background-color: gray;
+        /* background-color: gray; */
 
-        & .problemTitle {
+        .problemTitle {
             position: absolute;
             margin: 0;
             color: yellow;
@@ -36,10 +36,11 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 5vw;
+            text-align: center;
+            font-size: 7vw;
 
             font-weight: bolder;
-            -webkit-text-stroke: 4px black;
+            -webkit-text-stroke: 5px black;
 
             top: 25vh;
             left: 7.5vw;
@@ -51,24 +52,24 @@
             }
         }
 
-        & .selections {
+        .selections {
             position: absolute;
-            top: 50vh;
+            top: 65vh;
             width: 100vw;
             display: flex;
             align-items: center;
             justify-content: space-around;
 
-            & .selection {
+            .selection {
                 margin: 0;
                 color: cyan;
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                font-size: 5vw;
+                font-size: 8vw;
 
                 font-weight: bolder;
-                -webkit-text-stroke: 4px black;
+                -webkit-text-stroke: 5px black;
 
                 transform: scale(0) rotate(0deg) translateY(0);
                 transition: all 1.5s;

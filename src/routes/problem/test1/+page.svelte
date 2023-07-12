@@ -1,5 +1,5 @@
 <script>
-    import ProblemEffect from "../../components/problemEffect.svelte";
+    import ProblemEffect from "../../../components/problemEffect.svelte";
 
 </script>
 
